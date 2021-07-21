@@ -22,7 +22,7 @@
 .navbar a {
   margin-left: 100px;
   text-decoration: none;
-  padding: 6px;
+  padding: 2px;
 }
 .navbar a:hover{
   color: #f1356d;
