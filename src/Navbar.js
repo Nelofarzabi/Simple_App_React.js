@@ -6,6 +6,10 @@ class Navbar extends Component{
             <div className= "navClass">
                 <nav>
                     <h1>The Dojo Blog </h1>
+                    <a href= "/">Home</a>
+                    <a href= "/">New</a>
+                    <a href= "/">Blog</a>
+
                 </nav>
 
             </div>
@@ -15,3 +19,4 @@ class Navbar extends Component{
     
 
 }
+export default Navbar;
