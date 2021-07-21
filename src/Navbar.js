@@ -1,22 +1,25 @@
-import React , { Component } from "react";
+import React, { Component } from "react";
 
-class Navbar extends Component{
-    render(){
+class Navbar extends Component {
+    render() {
         return (
-            <div className= "navClass">
-                <nav>
-                    <h1>The Dojo Blog </h1>
-                    <a href= "/">Home</a>
-                    <a href= "/">New</a>
-                    <a href= "/">Blog</a>
 
-                </nav>
+            <nav className="navbar">
+                <h1>The Dojo Blog </h1>
+                <div className= "Links">
+                <a href="/">Home</a>
+                <a href="/">New Blog</a>
+               
+                </div>
+               
 
-            </div>
+            </nav>
+
+
         );
 
     }
-    
+
 
 }
 export default Navbar;
