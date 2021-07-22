@@ -30,6 +30,7 @@
 }
 .content{
   max-width: 600px;
-  margin: 40px auto;
+  /* margin: 50px auto; */
+  margin-left: 27%;
   padding: 20px ;
 }
