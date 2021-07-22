@@ -8,7 +8,19 @@ const Home = () => {
     ]);
     return (
         <div className="home">
-            <h2>Home</h2>
+        
+  
+                {Blogs.map((blog)=>(
+                    <div className="preview-blog" key={blog.id}>
+                        <h2>{blog.title}</h2>
+                        <p> written by :{blog.autor}</p>
+                    </div>
+                )
+                 
+
+                )}
+
+ 
            
         </div>
 
