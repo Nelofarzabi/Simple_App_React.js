@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
-import Home from "./Homepage"
+import Home from "./Homepage";
+
 import './App.css';
+
 
 
 function App() {
@@ -9,9 +11,10 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="content">
-        <Home />
-
-      </div>
+        <Home/> </div>
+    
+     
+     
 
 
     </div>
